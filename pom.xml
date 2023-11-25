@@ -9,7 +9,7 @@
     </parent>
     <groupId>pranay.springFramework</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>pet-clinic</name>
     <description>pet-clinic</description>
@@ -55,7 +55,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Pranay-a-1/pet-clinic.git</developerConnection>
-      <tag>pet-clinic-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
