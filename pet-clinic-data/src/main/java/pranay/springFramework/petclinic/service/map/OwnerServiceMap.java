@@ -1,10 +1,12 @@
-package pranay.springFramework.service.map;
+package pranay.springFramework.petclinic.service.map;
 
-import pranay.springFramework.model.Owner;
-import pranay.springFramework.service.OwnerService;
+import org.springframework.stereotype.Service;
+import pranay.springFramework.petclinic.model.Owner;
+import pranay.springFramework.petclinic.service.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 

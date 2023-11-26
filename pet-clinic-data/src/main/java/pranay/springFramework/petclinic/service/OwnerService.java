@@ -1,6 +1,7 @@
-package pranay.springFramework.service;
+package pranay.springFramework.petclinic.service;
 
-import pranay.springFramework.model.Owner;
+import pranay.springFramework.petclinic.model.Owner;
+
 
 public interface OwnerService extends CrudService<Owner, Long> {
 

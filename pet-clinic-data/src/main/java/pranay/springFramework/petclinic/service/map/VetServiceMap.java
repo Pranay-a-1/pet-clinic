@@ -1,11 +1,12 @@
-package pranay.springFramework.service.map;
+package pranay.springFramework.petclinic.service.map;
 
-import pranay.springFramework.model.Vet;
-import pranay.springFramework.service.VetService;
+import org.springframework.stereotype.Service;
+import pranay.springFramework.petclinic.model.Vet;
+import pranay.springFramework.petclinic.service.VetService;
 
 import java.util.Set;
 
-
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {

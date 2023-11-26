@@ -1,4 +1,4 @@
-package pranay.springFramework.model;
+package pranay.springFramework.petclinic.model;
 
 
 import lombok.AllArgsConstructor;

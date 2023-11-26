@@ -1,4 +1,4 @@
-package pranay.springFramework.service;
+package pranay.springFramework.petclinic.service;
 
 import java.util.Set;
 
